@@ -1,0 +1,78 @@
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 900px) {
+
+  .name{
+    font-size:xx-large;
+  text-align: center;
+      text-align: center;
+      margin-top: 2rem;
+  }
+
+  .header{
+    padding-top: 1rem;
+  }
+
+  .about-me{
+    font-size: x-large;
+    text-align: center;
+  }
+
+  .fron-end-logos-imgs{
+         text-align: center;
+      }
+
+      .front-end-logos{
+       width:80%;
+   }
+
+   .front_end_skills{
+      margin: 0 auto;
+      }
+
+      .skills_illustration{
+       display: none;
+    }
+
+  .skills_illustration{
+    max-width: 80%;
+    text-align: center;
+  }
+  .socialmedia{
+    display: inline-block;
+    width: 12%;
+    margin-top:1.5rem;
+    margin-right: 1rem;
+    border-radius: 20%;
+  }
+   .socialmediao{
+     text-align: center;
+     width: 100%;
+     
+   }
+   .social-container{
+    width: 100%;
+   }
+   .content-body{
+    text-align: center;
+    font-size: large;
+    font-weight: 500;
+   }
+
+}
+.spinner-wrapper{
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.spinner-grow{
+  height: 60px;
+  width: 60px;
+}
